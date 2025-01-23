@@ -30,7 +30,7 @@ int main() {
     printf ("Digite o número de pontos turísticos\n");
     scanf ("%d", &pontos_turisticos);
 
-    //Cálculos necessários
+    //Cálculos da Densidade populacional e PIB per capita
 
     populacaoporarea = populacao / area;
     pibporpopulacao = (float) pib / populacao;
