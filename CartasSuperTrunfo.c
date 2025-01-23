@@ -10,7 +10,6 @@ int main() {
     //Declaração de variáveis
     char codigo[3];
     char estado;
-    int cidade_numero;
     int populacao;
     float area;
     float pib;
@@ -23,7 +22,7 @@ int main() {
     printf("Digite o código da cidade iniciando com uma letra entre A e H e terminando com um número entre 1 e 4\n");
     scanf ("%s", &codigo);
     printf ("Digite a população da cidade\n");
-    scanf ("%d", &cidade_numero);
+    scanf ("%d", &populacao);
     printf ("Digite a área da cidade (em km²)\n");
     scanf ("%f", &area);
     printf ("Digite o PIB (em milhões de R$)\n");
@@ -38,7 +37,7 @@ int main() {
 
     //Exibição dos valores
     printf ("O código da cidade é %s\n", codigo);
-    printf ("A população da cidade é %d habitantes\n", cidade_numero);
+    printf ("A população da cidade é %d habitantes\n", populacao);
     printf ("A área da cidade é %.2f km²\n", area);
     printf ("O PIB é %.2f milhões\n", pib);
     printf ("O número de pontos turísticos é %d\n", pontos_turisticos);
