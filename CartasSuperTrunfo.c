@@ -25,7 +25,7 @@ int main() {
     scanf ("%d", &populacao);
     printf ("Digite a área da cidade (em km²)\n");
     scanf ("%f", &area);
-    printf ("Digite o PIB (em milhões de R$)\n");
+    printf ("Digite o PIB (em bilhões de R$)\n");
     scanf ("%f", &pib);
     printf ("Digite o número de pontos turísticos\n");
     scanf ("%d", &pontos_turisticos);
@@ -33,7 +33,7 @@ int main() {
     //Cálculos necessários
 
     populacaoporarea = populacao / area;
-    pibporpopulacao =  pib / (float) populacao;
+    pibporpopulacao = (float) pib / populacao;
 
     //Exibição dos valores
     printf ("O código da cidade é %s\n", codigo);
