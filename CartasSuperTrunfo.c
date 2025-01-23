@@ -34,7 +34,7 @@ int main() {
     //Cálculos necessários
 
     populacaoporarea = populacao / area;
-    pibporpopulacao =  pib / populacao;
+    pibporpopulacao =  pib / (float) populacao;
 
     //Exibição dos valores
     printf ("O código da cidade é %s\n", codigo);
